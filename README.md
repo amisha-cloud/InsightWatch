@@ -1,4 +1,4 @@
- InsightWatch
+ **InsightWatch**
 
 AI-powered Influencer & Competitor Monitoring Dashboard  
 Built with **React (Vite)** + **Tailwind CSS** + **FastAPI** + **Ollama (LLMs)**
@@ -35,14 +35,14 @@ Built with **React (Vite)** + **Tailwind CSS** + **FastAPI** + **Ollama (LLMs)**
 
 ### Frontend (React + Vite)
 
-```bash
 cd frontend
 npm install
 npm run dev
+
 Backend (FastAPI + Ollama)
 Ensure Ollama is installed and a model is pulled (e.g., ollama run llama3)
 
-
+### Backend
 cd backend
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
@@ -58,9 +58,7 @@ ollama run llama3
 Make sure it's accessible at http://localhost:11434 for FastAPI.
 
 📁 Project Structure
-bash
-Copy
-Edit
+
 InsightWatch/
 ├── frontend/    # React dashboard
 ├── backend/     # FastAPI + Ollama LLM API
