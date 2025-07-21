@@ -35,44 +35,46 @@ Built with **React (Vite)** + **Tailwind CSS** + **FastAPI** + **Ollama (LLMs)**
 
 ### Frontend (React + Vite)
 
-cd frontend
+-cd frontend
 
-npm install
+-npm install
 
-npm run dev
+-npm run dev
 
+### Backend
 Backend (FastAPI + Ollama)
 
 Ensure Ollama is installed and a model is pulled (e.g., ollama run llama3)
 
-### Backend
-cd backend
+-cd backend
 
-python -m venv venv
+-python -m venv venv
 
-source venv/bin/activate   # On Windows: venv\Scripts\activate
+-source venv/bin/activate   # On Windows: venv\Scripts\activate
 
-pip install -r requirements.txt
+-pip install -r requirements.txt
 
-uvicorn main:app --reload
+-uvicorn main:app --reload
  
- Ollama Setup (LLM)
+ -Ollama Setup (LLM)
 
-Install Ollama from https://ollama.com
+-Install Ollama from https://ollama.com
 
-Run a model locally (example with LLaMA3):
+-Run a model locally (example with LLaMA3):
 
 
-ollama pull llama3
+-ollama pull llama3
 
-ollama run llama3
+-ollama run llama3
 
 Make sure it's accessible at http://localhost:11434 for FastAPI.
 
 📁 Project Structure
 
 InsightWatch/
-├── frontend/    # React dashboard
-├── backend/     # FastAPI + Ollama LLM API
-├── README.md
-📄 License
+
+├── frontend/   
+
+├── backend/ 
+# FastAPI + Ollama LLM API
+
